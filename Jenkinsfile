@@ -2,7 +2,7 @@ pipeline {
     agent { label 'master' }
 
     environment {
-        AWS_REGION = "us-east-1"   // adjust to your AWS region
+        AWS_REGION = "us-east-2"   // adjust to your AWS region
         IMAGE_TAG = "${env.BUILD_NUMBER}"
     }
 
